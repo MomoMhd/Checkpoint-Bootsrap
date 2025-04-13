@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- Création de la Barre de Navigation -->
+
+    <nav class="navbar navbar-expand-lg bg-stateblue">
+        <div class="container-fluid" >
+            <div class="logo bungee-tint-regular">
+                <a class="navbar-brand" href="#"><i class='bx bxs-plane-alt'></i> FreeAgency</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            </div>
+
+            <div class="menu">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="#destination">Destinations</a>
+                      <a class="nav-link" href="#circuit">Circuits</a>
+                      <a class="nav-link " href="#contact">Contact</a>
+                    </div>
+                  </div>
+            </div>
+               
+        </div>
+      </nav>
+
+      <!-- Création de notre section héros  -->
+      <section class="hero">
+        
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-inner">
+            <div class="carousel-item active hero-1">
+              <div class="d-flex align-items-center" style="width: 100%; height: 80vh;">
+                <div class="container text-center text-lg-left texte-style">
+                   <h1 class="text-white fw-bold">We are creating smart websites.</h1> 
+                   <p class="text-white mb-4"><i>Crafting visually stunning memorable experiences for the web</i></p>
+                   <a href="#contact" class="btn btn-success">Contactez-nous</a>
+                </div>
+            </div>
+            </div>
+            <div class="carousel-item hero-2">
+              <div class="d-flex align-items-center" style="width: 100%; height: 80vh;">
+                <div class="container text-center text-lg-left texte-style">
+                   <h1 class="text-white fw-bold">We are creating smart websites.</h1> 
+                   <p class="text-white mb-4"><i>Crafting visually stunning memorable experiences for the web</i></p>
+                   <a href="#" class="btn btn-success">Contactez-nous</a>
+                </div>
+            </div>
+            </div>
+            <div class="carousel-item hero-3">
+              <div class="d-flex align-items-center" style="width: 100%; height: 80vh;">
+                <div class="container text-center text-lg-left texte-style">
+                   <h1 class="text-white fw-bold">We are creating smart websites.</h1> 
+                   <p class="text-white mb-4"><i>Crafting visually stunning memorable experiences for the web</i></p>
+                   <a href="#" class="btn btn-success">Contactez-nous</a>
+                </div>
+            </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </section>
+
+      
+        <!-- Section destination -->
+
+        <section id="destination" class=" mb-5 mt-5 container">
+          <div class="dancing-script-uniquifier">
+            <h1 class="fw-bold mb-5">Découvrer Nos Destinations Paradisiaques.</h1>
+          </div>
+          
+          <div class="row">
+            <div class="card col-4 me-5" style="width: 18  rem;">
+              <img src="images/cuba.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text fw-bold">Cuba</p>
+              </div>
+            </div>
+
+            <div class="card col-4 me-5" style="width: 18rem;">
+              <img src="images/destination 1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Bali</p>
+              </div>
+            </div>
+
+            <div class="card col-4 me-5" style="width: 18rem;">
+              <img src="images/DubaÏ.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">Dubai.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- Section Accordeon -->
+
+        <section id="circuit" class="accordeon mb-5 mt-5 container">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Cuba
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Découvrez Cuba, un joyau des Caraïbes où le temps semble s'être arrêté. Entre les rues vibrantes de La Havane, les plages paradisiaques de Varadero et les vallées verdoyantes de Viñales, Cuba vous promet un voyage riche en culture, en histoire et en émotions. Musique, salsa, voitures vintage, cigares légendaires… Laissez-vous emporter par l'âme unique de cette île fascinante !</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Bali
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Bali, c'est bien plus qu'une destination, c'est une expérience magique. Temples mystiques, rizières infinies, plages dorées et couchers de soleil à couper le souffle… L'île indonésienne séduit les voyageurs en quête de dépaysement, de spiritualité et d'aventure. Surf, yoga, jungle ou farniente : à Bali, chacun trouve son paradis.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Dubaï 
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Bienvenue à Dubaï, la ville où tout devient possible. Gratte-ciels futuristes, centres commerciaux géants, désert doré et hôtels 7 étoiles… Dubaï vous plonge dans un univers à la fois ultra-moderne et profondément ancré dans les traditions arabes. Shopping, sensations fortes, plages, gastronomie : vivez une escapade hors du commun au cœur du Moyen-Orient.
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- Formulaire de contact -->
+
+        <!-- Formulaire de contact Bootstrap 5.3 -->
+<section  id="contact" class="container py-5 contact">
+  <h2 class="mb-4">Contactez-nous</h2>
+  <form>
+    <div class="mb-3">
+      <label for="name" class="form-label">Nom</label>
+      <input type="text" class="form-control" id="name" placeholder="Votre nom" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Adresse électronique</label>
+      <input type="email" class="form-control" id="email" placeholder="exemple@domaine.com" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="destination" class="form-label">Destination d'intérêt</label>
+      <select class="form-select" id="destination" required>
+        <option selected disabled>Choisissez une destination</option>
+        <option value="cuba">Cuba</option>
+        <option value="bali">Bali</option>
+        <option value=" dubai">Dubai</option>
+              </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Votre message..." required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Envoyer</button>
+  </form>
+</section>
+
+<!-- Création de notre pied de Page -->
+<footer>
+  <p>&copy; Plus de 10 ans que nous vous accompagnons dans le monde . <br> Tous droits réservés.</p>
+</footer>
+
+
+
+    
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

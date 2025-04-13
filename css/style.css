@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex-end;
+    justify-content: space-between;
+    background-color: slateblue;
+}
+
+/* Ajout de la police au niveau du logo */
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .hero-1 {
+    background: linear-gradient(#00000064, #00000064), url(../images/hero1.jpg)
+}
+.hero-2 {
+    background: linear-gradient(#0000004a, #0000004a), url(../images/hero2.webp);
+}
+
+.hero-3 {
+    background-image: url(../images/Hero3.webp);
+}
+
+
+
+.dancing-script-uniquifier {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  .accordeon {
+    background: aqua;
+  }
+
+  
+
+  footer {
+    background-color: #222;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
